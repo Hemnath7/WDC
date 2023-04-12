@@ -1,0 +1,56 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: cornflowerblue;
+  padding-top: 80px;
+  margin: 0;
+}
+
+.box {
+  background-color: white;
+  width: 400px;
+  padding: 16px;
+  margin: 40px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px #424242;
+  position: relative;
+  z-index: -1;
+}
+
+/* CSS Positioning */
+
+#nav {
+  background-color: black;
+  color: white;
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#stickyNav {
+  background-color: white;
+  padding: 24px;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+.content {
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 40px;
+}
+
+.content p {
+  margin-bottom: 30px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="../CSS/dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/66274ba5b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div id="sidebar"></div>
+      <div id="main">
+        <div id="header">
+          <div>
+            <i class="fa-solid fa-user icon"></i>
+            <div>
+              <h3>Analytics Dashboard</h3>
+              <small
+                >This is an example dashboard created using build-in elements
+                and components.
+              </small>
+            </div>
+          </div>
+          <div class="btn-block">
+            <button>
+              <i class="fa-solid fa-star" style="color: #ffffff"></i>
+            </button>
+            <button class="bgGreen">+ Create New</button>
+          </div>
+        </div>
+        <!-- Portfolio section -->
+        <div class="card">
+          <div class="card-header">
+            <h4>Portfolio Performance</h4>
+            <button class="outline">View All</button>
+          </div>
+          <div class="grid-col3 boxPadding">
+            <div class="widget">
+              <div class="icon-box" style="background-color: #f7b924">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div>
+                <small class="light-grey">Cash deposits</small>
+                <h1>1,7M</h1>
+                <div class="sub-data">
+                  <div>
+                    <i class="fa-solid fa-chevron-down arrow red"></i>
+                    <span class="red">54.1%</span>
+                  </div>
+                  <small>less earnings</small>
+                </div>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="icon-box" style="background-color: #d92550">
+                <i class="fa-solid fa-graduation-cap white"></i>
+              </div>
+              <div>
+                <small class="light-grey">Invested dividents</small>
+                <h1>9M</h1>
+                <div class="sub-data">
+                  <small>Growth Rate</small>
+                  <div>
+                    <i class="fa-solid fa-chevron-down arrow blue"></i>
+                    <span class="light-blue">54.1%</span>
+                  </div>
+                </div>
+                <!-- <small>Growth Rate<span class="blue">54.1%</span></small> -->
+              </div>
+            </div>
+            <div class="widget">
+              <div class="icon-box" style="background-color: #3ac47d">
+                <i class="fa-regular fa-building white"></i>
+              </div>
+              <div>
+                <small class="light-grey">Capital gains</small>
+                <h1 class="green">$563</h1>
+                <div class="sub-data">
+                  <small>Increased by</small>
+                  <div>
+                    <i class="fa-solid fa-chevron-up arrow yellow"></i>
+                    <span class="yellow">54.1%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-bottom center">
+            <button class="big bgBlue">View Complete Report</button>
+          </div>
+        </div>
+        <!-- Techincal & Timeline section -->
+        <div class="grid-col2">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h4>Technical Support</h4>
+              </div>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="chart">
+              <small>LAST YEAR TOTAL SALES</small>
+              <div>
+                <h1>$629</h1>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <img src="../Images/chart.png" alt="" />
+            </div>
+            <div class="chart-content">
+              <p>SALES PROGRESS</p>
+              <div>
+                <div>
+                  <b>Total Orders</b> <br /><small>Last year expenses</small>
+                </div>
+                <h2 class="green">$ 1896</h2>
+              </div>
+              <div class="progressBar">
+                <div class="progress"></div>
+                <div class="progress progressBlue"></div>
+              </div>
+              <div>
+                <small>Yoy Growth</small>
+                <small>100%</small>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h4>Timeline Example</h4>
+              </div>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="card-content scroll-container">
+              <div class="lists">
+                <div class="line"></div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>All Hands Meeting </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>Yet another one, at 15:00 PM </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>Build the production release NEW </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>Something not important </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>Yet another one, at 15:00 PM </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>Build the production release </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>This dot has an info state </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>This dot has a dark state </small>
+                </div>
+                <div class="list">
+                  <div class="circleT"></div>
+                  <small>All Hands Meeting </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-bottom center">
+              <button>View Complete Report</button>
+            </div>
+          </div>
+        </div>
+        <!-- 4 cards -->
+        <div class="grid-col4">
+          <div class="line-chart card">
+            <h2>$874</h2>
+            <small class="light-grey"> sales last month </small>
+            <img src="../Images/lineChart.png" alt="" />
+          </div>
+          <div class="line-chart lc2 card">
+            <h2>$1283</h2>
+            <small class="light-grey"> Sales Income </small>
+            <img src="../Images/lineChart.png" alt="" />
+          </div>
+          <div class="line-chart lc3 card">
+            <h2>$1286</h2>
+            <small class="light-grey"> last month sales</small>
+            <img src="../Images/lineChart.png" alt="" />
+          </div>
+          <div class="line-chart lc4 card">
+            <h2>$564</h2>
+            <small class="light-grey"> total revenue </small>
+            <img src="../Images/lineChart.png" alt="" />
+          </div>
+        </div>
+        <!-- Table section -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <i class="fa-solid fa-laptop"></i>
+              <h4>Dynamic Tables</h4>
+            </div>
+            <div><button>Refresh</button> <button>Remove</button></div>
+          </div>
+          <div class="card-header">
+            <div>Fulltext search: <input type="search" /></div>
+          </div>
+          <table>
+            <tr>
+              <th style="text-align: center">#</th>
+              <th>Country</th>
+              <th>Area</th>
+              <th>Population</th>
+            </tr>
+            <tr>
+              <th style="text-align: center">1</th>
+              <td>Russia</td>
+              <td>17,075,200</td>
+              <td>146,989,754</td>
+            </tr>
+            <tr>
+              <th style="text-align: center">2</th>
+              <td>France</td>
+              <td>640,679</td>
+              <td>64,979,548</td>
+            </tr>
+            <tr>
+              <th style="text-align: center">3</th>
+              <td>Germany</td>
+              <td>357,114</td>
+              <td>82,114,224</td>
+            </tr>
+            <tr>
+              <th style="text-align: center">4</th>
+              <td>Portugal</td>
+              <td>92,090</td>
+              <td style="padding-bottom: 20px">10,329,506</td>
+            </tr>
+          </table>
+          <div class="card-header">
+            <div>
+              <button class="tableButton">
+                <i class="fa-solid fa-angles-left slide-icon"></i>
+              </button>
+              <button class="tableButton">1</button>
+              <button class="tableButton">2</button>
+              <button class="tableButton">3</button>
+              <button class="tableButton">4</button>
+              <button class="tableButton">
+                <i class="fa-solid fa-angles-right slide-icon"></i>
+              </button>
+            </div>
+            <select name="" id="">
+              <option value="">2 items per page</option>
+              <option value="">4 items per page</option>
+              <option value="">6 items per page</option>
+            </select>
+          </div>
+        </div>
+        <!-- Task list, Chatbox -->
+        <div class="grid-col2">
+          <div name="tasks-list" class="card">
+            <div class="card-header">
+              <div>
+                <i class="fa-solid fa-list-check"></i>
+                <h4>Tasks List</h4>
+              </div>
+              <i class="fa-solid fa-grip"></i>
+            </div>
+            <div class="scroll-container">
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <div id="tag-top">
+                      <h5>Wash the car</h5>
+                      <div class="tag pink">Rejected</div>
+                    </div>
+                    <small class="light-grey"><i>Writen by bob</i></small>
+                  </div>
+                </div>
+                <!-- <div class="tag rounded">Latest</div> -->
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <h5>Task with dropdown menu</h5>
+                    <div id="tag-top">
+                      <small class="light-grey"><i>By Johnny</i></small>
+                      <div class="tag pink" style="background-color: #16aaff">
+                        New
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tag rounded">Latest</div>
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <h5>Badge on the right task</h5>
+                    <div id="tag-top">
+                      <small class="light-grey"
+                        ><i>This task has show on hover actions! </i></small
+                      >
+                      <!-- <div class="tag" style="background-color: #16aaff">New</div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="tag rounded">Latest</div>
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <h5>Go grocery shopping</h5>
+                    <div id="tag-top">
+                      <small class="light-grey"
+                        ><i>A short description for this todo item </i></small
+                      >
+                      <!-- <div class="tag" style="background-color: #16aaff">New</div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="tag rounded">Latest</div> -->
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <div id="tag-top">
+                      <h5>Wash the car</h5>
+                      <div class="tag pink">Rejected</div>
+                    </div>
+                    <small class="light-grey"><i>Writen by</i></small>
+                  </div>
+                </div>
+                <!-- <div class="tag rounded">Latest</div> -->
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <h5>Badge on the right task</h5>
+                    <div id="tag-top">
+                      <small class="light-grey"
+                        ><i>This task has show on hover actions! </i></small
+                      >
+                      <!-- <div class="tag" style="background-color: #16aaff">New</div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="tag rounded">Latest</div>
+              </div>
+              <div class="task-card">
+                <div class="task-card-details">
+                  <div class="indicator"></div>
+                  <input type="checkbox" />
+                  <div>
+                    <h5>Development Task</h5>
+                    <div id="tag-top">
+                      <small class="light-grey"
+                        ><i>Finish Vue ToDo List App </i></small
+                      >
+                      <!-- <div class="tag" style="background-color: #16aaff">New</div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="tag rounded">Latest</div>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <div></div>
+              <div>
+                <button>Cancel</button>
+                <button>Add Task</button>
+              </div>
+            </div>
+          </div>
+
+          <div name="chatbox" class="card">
+            <div class="card-header">
+              <div>
+                <i class="fa-regular fa-message"></i>
+                <h4>Chat Box</h4>
+              </div>
+              <i class="fa-solid fa-grip"></i>
+            </div>
+            <div class="scroll-container">
+              <div class="chat-card">
+                <div class="chat-img-box">
+                  <img class="chat-img" src="../Images/tiger.jpeg" alt="" />
+                  <div class="circle"></div>
+                </div>
+                <div class="chat-card-details">
+                  <div class="chat-box">
+                    <small>
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system.
+                    </small>
+                  </div>
+
+                  <div class="time-stamp">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    11:01 AM | Yesterday
+                  </div>
+                </div>
+              </div>
+              <div class="chat-card">
+                <div class="chat-card-details">
+                  <div class="chat-box chat-box-right">
+                    <small>
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system.
+                    </small>
+                  </div>
+
+                  <div class="time-stamp time-stamp-right">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    11:01 AM | Yesterday
+                  </div>
+                </div>
+                <div class="chat-img-box">
+                  <img class="chat-img" src="../Images/tiger.jpeg" alt="" />
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="chat-card">
+                <div class="chat-img-box">
+                  <img class="chat-img" src="../Images/tiger.jpeg" alt="" />
+                  <div class="circle"></div>
+                </div>
+                <div class="chat-card-details">
+                  <div class="chat-box">
+                    <small>
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system.
+                    </small>
+                  </div>
+
+                  <div class="time-stamp">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    11:01 AM | Yesterday
+                  </div>
+                </div>
+              </div>
+              <div class="chat-card">
+                <div class="chat-card-details">
+                  <div class="chat-box chat-box-right">
+                    <small>
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system.
+                    </small>
+                  </div>
+
+                  <div class="time-stamp time-stamp-right">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    11:01 AM | Yesterday
+                  </div>
+                </div>
+                <div class="chat-img-box">
+                  <img class="chat-img" src="../Images/tiger.jpeg" alt="" />
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="chat-card">
+                <div class="chat-card-details">
+                  <div class="chat-box chat-box-right">
+                    <small>
+                      I will give you a complete account of the system.
+                    </small>
+                  </div>
+
+                  <div class="time-stamp time-stamp-right">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    11:01 AM | Yesterday
+                  </div>
+                </div>
+                <div class="chat-img-box">
+                  <img class="chat-img" src="../Images/tiger.jpeg" alt="" />
+                  <div class="circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <input
+                type="text"
+                placeholder="Write here and hit enter to send..."
+                style="width: 100%"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-col3 card">
+          <div class="summary-card">
+            <div>
+              <p><b>Total Orders</b></p>
+              <small>Last year expenses</small>
+            </div>
+            <h2 class="green">1876</h2>
+          </div>
+          <div class="summary-card">
+            <div>
+              <p><b>Followers</b></p>
+              <small>People Interested </small>
+            </div>
+            <h2 class="red">45,9%</h2>
+          </div>
+          <div class="summary-card">
+            <div>
+              <p><b>Total Orders</b></p>
+              <small>Last year expenses</small>
+            </div>
+            <h2 class="green">1876</h2>
+          </div>
+          <div class="summary-card noborder">
+            <div>
+              <p><b>Clients</b></p>
+              <small>Total Clients Profit </small>
+            </div>
+            <h2 class="blue">$12.6k</h2>
+          </div>
+          <div class="summary-card noborder">
+            <div>
+              <p><b>Products Sold </b></p>
+              <small>Total revenue streams </small>
+            </div>
+            <h2 class="yellow">$3M</h2>
+          </div>
+          <div class="summary-card noborder">
+            <div>
+              <p><b>Clients</b></p>
+              <small>Total Clients Profit </small>
+            </div>
+            <h2 class="blue">$12.6k</h2>
+          </div>
+        </div>
+        <!-- main  -->
+      </div>
+      <!-- main  -->
+    </div>
+  </body>
+</html>

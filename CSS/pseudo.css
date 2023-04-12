@@ -1,0 +1,63 @@
+/* Psuedo Elements */
+
+p {
+  font-size: 20px;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 44px;
+}
+
+/* before & after values let us adds contents to the HTML through CSS */
+
+h3::before {
+  content: "* ";
+  color: red;
+}
+
+h3::after {
+  content: " *";
+  color: red;
+}
+
+ul li::marker {
+  color: red;
+}
+
+/* Psuedo classes */
+
+button:hover {
+  box-shadow: 0 0 6px #3a86ff;
+}
+
+button:active {
+  background-color: #3a86ff;
+  color: white;
+}
+/* -------- focus State -------- */
+input {
+  width: 300px;
+  height: 28px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input:focus {
+  border: 4px solid green;
+}
+/* -------- */
+
+/* Acceptable parameters inside the nth-child() brackets are numbers, odd, even */
+ul li:nth-child(even) {
+  color: blue;
+}
+
+ul:not(.shortlist) {
+  color: green;
+}

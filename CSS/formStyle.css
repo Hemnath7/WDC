@@ -1,0 +1,11 @@
+p {
+  color: gray;
+}
+
+input {
+  color: blue;
+}
+
+div p {
+  color: blueviolet;
+}

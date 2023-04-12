@@ -1,0 +1,15 @@
+#heading {
+  color: red;
+}
+
+.group {
+  color: blue;
+}
+
+h5 {
+  color: coral;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

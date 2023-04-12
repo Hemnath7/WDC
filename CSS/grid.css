@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 20px;
+  justify-content: center;
+  background-color: dodgerblue;
+  padding: 100px 100px;
+}
+
+.box {
+  padding: 20px;
+  background-color: white;
+}
