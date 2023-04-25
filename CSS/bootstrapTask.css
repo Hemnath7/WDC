@@ -1,0 +1,94 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+i {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.bg-green {
+  background-color: #008374;
+}
+
+.bg-green-2 {
+  background-color: #009282;
+}
+
+.bg-light {
+  background-color: #f6f6f6;
+}
+
+.bg-dark-subtle {
+  background-color: #6f6f6f;
+}
+
+.color-green {
+  color: #008374;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.active {
+  color: white;
+}
+
+.slidebox {
+  display: flex;
+  overflow-x: scroll;
+  height: 48px;
+  gap: 80px;
+  margin: 60px 0;
+}
+
+.slidebox img {
+  /* padding-right: 108px; */
+}
+
+.video {
+  margin: 60px 0 !important;
+  /* padding: 60px; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../Images/bTask/cta-bg.jpg); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/bTask/cta-bg.jpg") center center;
+  color: white;
+}
+
+.img-testimonial {
+  width: 90px;
+  height: 90px;
+}
+
+ul {
+  list-style: none;
+}
+
+.pricing ul li:before {
+  content: "✓ ";
+  color: #008374;
+}
+
+ul li {
+  line-height: 48px;
+}
+
+.thumbnail-small {
+  height: 48px;
+  width: 48px;
+}

@@ -1,0 +1,30 @@
+/* Transitions */
+
+.square {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  /* transition-duration: 2s; */
+  /* transition-property: all; */
+  /* transition-property: background-color, width; or all(default property) */
+  /* transition-timing-function: cubic-bezier(1,-0.15, 1, 1); */ /* ease-in (default property) */
+  /* transition-delay: 3s; */
+  /* transition: t-property t-duration t-delay t-timing-function (clubbing all properties together) */
+  transition: background-color 2s 1s linear;
+}
+
+.square:hover {
+  background-color: blueviolet;
+  width: 600px;
+  /* transform: rotate(45deg); */ /* transform values - rotate, scale, translate (20) or (-20)-values can be in +ve or -ve. Axises - X, Y, Z, 3D */
+  /* transform: rotatex(45deg); */
+  /* transform: scale(2); */
+  transform: translate(20px);
+}
+/* ----End---- */
+
+/* Animations */
+
+
+
+/* ----End---- */
